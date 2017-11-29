@@ -8,6 +8,8 @@ creature_mammoth
 	[CASTE_NAME:mammoth:mammoths:mammoth]
 	[CHILD:10][GENERAL_CHILD_NAME:mammoth calf:mammoth calves]
 	[CREATURE_TILE:'M'][COLOR:7:0:0]
+	[CREATURE_CLASS:MAMMAL]
+	[CREATURE_CLASS:GLACIER]
 	[PETVALUE:500]
 	[PET]
 	STANDARD_GRAZER] removed grazer so mammoths don't starve in glaciers. /!\ NOT BALANCED AT ALL /!\
