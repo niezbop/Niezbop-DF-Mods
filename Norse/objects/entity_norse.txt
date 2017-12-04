@@ -451,7 +451,7 @@ entity_norse
 		[BRAG_ON_KILL]
 		[CHAT_WORTHY]
 		[DO_NOT_CULL]
-		[COLOR:5:0:0]
+		[COLOR:5:0:1]
 		[ACCOUNT_EXEMPT]
 		[DUTY_BOUND]
 		[DEMAND_MAX:1]
