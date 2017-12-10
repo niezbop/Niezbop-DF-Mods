@@ -40,7 +40,10 @@ task :release_zips do
         zipfile_name = "target/niezbop_#{combination.join('_')}_#{version}.zip"
         File.delete zipfile_name if File.file? zipfile_name
         Zip::File.open(zipfile_name, Zip::File::CREATE) do |zipfile|
-          Dir['temp/**/[^README]*.[^ico]*'].each do |file|
+          Dir['temp/**/*.*']
+            .reject { |f| /README\.md/.match f }
+            .reject { |f| /\.ico/.match f }
+            .each do |file|
             # Two arguments:
             # - The name of the file as it will appear in the archive
             # - The original file, including the path to find it
