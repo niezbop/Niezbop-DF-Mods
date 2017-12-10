@@ -1,7 +1,6 @@
 require 'fileutils'
 require 'zip'
 
-target_versions = %w[0.43.05 0.44.02]
 mod_directories = %w[Evil_Dwarves Norse Savage_Dwarves]
 
 desc 'merge all mod branches into master branches'
@@ -55,6 +54,7 @@ task :release_zips do
 end
 
 def on_version_branches
+  target_versions = %w[0.43.05 0.44.02]
   temp = current_branch
   target_versions.each do |version|
     branch = "master.#{version}"
