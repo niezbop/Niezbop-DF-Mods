@@ -11,9 +11,10 @@ creature_wood_elf
 	[CREATURE_CLASS:MAMMAL]
 
 	[INTELLIGENT]
+	[TRANCES]
 	[CANOPENDOORS]
 	[BENIGN]
-	[PREFSTRING:bravery]
+	[PREFSTRING:elegance]
 	[PREFSTRING:discretion]
 	[SPEECH:elf.txt]
 
