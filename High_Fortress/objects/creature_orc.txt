@@ -187,7 +187,11 @@ creature_orc
 		[ATTACK_FLAG_CANLATCH]
 
 	[BABY:1]
+	[GENERAL_BABY_NAME:orc baby:orc babies]
+    [BABYNAME:orc baby:orc babies]
 	[CHILD:8]
+	[GENERAL_CHILD_NAME:orc child:orc children]
+    [CHILDNAME:orc child:orc children]
 	[EQUIPS]
 	[SMELL_TRIGGER:80]
 	[HOMEOTHERM:10067]
